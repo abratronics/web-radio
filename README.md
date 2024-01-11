@@ -5,3 +5,23 @@ This is just a simple system using various open source software to allow for OBS
 
 
 ![Network Diagrams (1)](https://github.com/mothcrew/dreamlogic-web-radio/assets/137013984/36cfc500-b68a-4e65-8c99-2daa122f305e)
+
+# Tech Used
+
+## OBS 
+
+Used for broadcasters, for streaming to custom RTMP server https://obsproject.com/
+
+## RTMPie 
+
+RTMP server (uses nginx-rtmp module) and management server https://github.com/ngrie/rtmpie?tab=readme-ov-file
+
+## Icecast2 
+
+https://icecast.org/ - sample bash script (under scripts dir) that uses ffmpeg to convert RTMP audio to Icecast HTTP stream
+
+## NGINX
+
+Last but not least, proxying the Icecast streams using NGINX reverse proxy, used as front-end for user web access and SSL termination. 
+
+https://www.nginx.com/
