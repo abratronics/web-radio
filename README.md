@@ -18,11 +18,13 @@ RTMP server (uses nginx-rtmp module) and management server https://github.com/ng
 
 ## Icecast2 
 
-https://icecast.org/ - sample bash script (under scripts dir) that uses ffmpeg to convert RTMP audio to Icecast HTTP stream
+https://icecast.org/ 
+
+I used a simple script (under scripts dir) that executes ffmpeg and converts RTMP audio to Icecast HTTP stream
 
 ## NGINX
 
-Last but not least, proxying the Icecast streams using NGINX reverse proxy, used as front-end for user web access and SSL termination. 
+reverse proxying the Icecast streams using NGINX, used as front-end for user web access and SSL termination. 
 
 https://www.nginx.com/
 
