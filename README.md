@@ -25,3 +25,11 @@ https://icecast.org/ - sample bash script (under scripts dir) that uses ffmpeg t
 Last but not least, proxying the Icecast streams using NGINX reverse proxy, used as front-end for user web access and SSL termination. 
 
 https://www.nginx.com/
+
+# Web Radio Server
+
+https://radio.dreamlogic.dev/
+
+The streams are not always live. This is a community web radio project, ran by people in their spare time. If you have any questions or issues, please reach out to support@dreamlogic.dev
+
+
