@@ -1,5 +1,5 @@
-# dreamlogic-web-radio
-Web Radio Stream hosted by OBS broadcasters in Southeast US (Birmingham, AL)
+# web-radio
+Diagram for Web Radio Stream hosted by OBS broadcasters 
 
 This is just a simple system using various open source software to allow for OBS users to stream to custom HTTPS livestream. It is a very simple set up, and I will detail the software used here. 
 
@@ -28,10 +28,5 @@ reverse proxying the Icecast streams using NGINX, used as front-end for user web
 
 https://www.nginx.com/
 
-# Web Radio Server
-
-https://radio.dreamlogic.dev/
-
-The streams are not always live. This is a community web radio project, ran by people in their spare time. If you have any questions or issues, please reach out to support@dreamlogic.dev
 
 
